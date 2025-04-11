@@ -1,0 +1,24 @@
+{
+  "name": "end-to-end-project-complete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -L ./server/index.js",
+    "start": "node ./server/index.js",
+    "setup-db": "node ./server/db/setup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "pg": "^8.14.1"
+  }
+}
