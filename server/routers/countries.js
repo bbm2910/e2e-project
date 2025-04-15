@@ -1,5 +1,5 @@
-const { Router } = require('express');
-const countryController = require('../controllers/countries')
+const { Router } = require("express");
+const countryController = require("../controllers/countries");
 
 const countryRouter = Router();
 
